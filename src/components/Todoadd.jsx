@@ -18,9 +18,9 @@ function addactivity(){
         <>
             <div className="flex flex-col gap-5">
                 <h1 className="text-2xl font-medium">Manage Activities</h1>
-                <div>
+                <div className="flex flex-row justify-around">
                     <input type="text" value={valuearr} onChange={handlechange} className="p-1  bg-transparent border border-black " placeholder="Next Activity?"></input>
-                    <button onClick={addactivity} className="p-1 bg-black text-white border border-black ">Add</button>
+                    <button onClick={addactivity} className="p-1 bg-black text-white border border-black mr-1  ">Add</button>
                 </div>
             </div>
         </>
